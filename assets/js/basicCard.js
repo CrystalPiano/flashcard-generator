@@ -1,3 +1,13 @@
+
+BasicCard = function(front, back) {
+    this.front = front;
+    this.back = back;
+
+    this.cardInfo = function() {
+        
+    }
+}
+
 var firstPresident = new BasicCard(
     "Who was the first president of the United States?", "George Washington");
 
@@ -6,14 +16,6 @@ console.log(firstPresident.front);
 
 // "George Washington"
 console.log(firstPresident.back);
-
-
-
-
-
-
-
-
 
 
 

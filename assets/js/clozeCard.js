@@ -1,3 +1,14 @@
+ClozeCard = function(cloze, partial, fullText){
+    this.cloze = cloze;
+    this.partial = partial;
+    this.fullText = fullText;
+
+    this.
+}
+
+
+
+// new cloze card info
 var firstPresidentCloze = new ClozeCard(
     "George Washington was the first president of the United States.", "George Washington");
 
@@ -15,6 +26,5 @@ var brokenCloze = new ClozeCard("This doesn't work", "oops");
 
 
 
-
-
+// making this infomation usable in other scripts
 module.exports = ClozeCard;
