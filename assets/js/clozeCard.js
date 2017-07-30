@@ -3,7 +3,11 @@ ClozeCard = function(cloze, partial, fullText){
     this.partial = partial;
     this.fullText = fullText;
 
-    this.
+    this.cardInfo = function() {
+        console.log(cloze);
+        console.log(partial);
+        console.log(fullText);
+    };
 }
 
 

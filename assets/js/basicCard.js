@@ -2,12 +2,14 @@
 BasicCard = function(front, back) {
     this.front = front;
     this.back = back;
+}
 
     this.cardInfo = function() {
         console.log (front);
         console.log (back);
-    };
 };
+
+
 
 // new basic card info
 var firstPresident = new BasicCard(
